@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#09090b" />
+    <meta
+      name="description"
+      content="Abhijeet Pal is a frontend-focused full-stack developer building modern web experiences and practical applications."
+    />
+    <meta
+      property="og:title"
+      content="Abhijeet Pal — Frontend-Focused Full-Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="Explore selected projects, skills, and ways to work with Abhijeet Pal."
+    />
+    <meta property="og:type" content="website" />
+    <title>Abhijeet Pal — Frontend-Focused Full-Stack Developer</title>
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
+    <script>
+      try {
+        const savedTheme = localStorage.getItem("abhijeet-portfolio-theme");
+        document.documentElement.dataset.theme =
+          savedTheme === "light" ? "light" : "dark";
+      } catch (_) {
+        document.documentElement.dataset.theme = "dark";
+      }
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Abhijeet Pal home"
+          ><span class="brand-mark">AP</span
+          ><span>Abhijeet Pal<span class="brand-dot">.</span></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Open navigation"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#work">Work</a><a href="#about">About</a
+          ><a href="#skills">Skills</a><a href="#experience">Experience</a>
+          <button
+            class="theme-toggle"
+            type="button"
+            id="theme-toggle"
+            aria-label="Switch to light mode"
+            title="Switch to light mode"
+          >
+            <span class="theme-icon" aria-hidden="true">☼</span
+            ><span class="theme-label">Light mode</span></button
+          ><a class="nav-cta" href="#contact"
+            >Let's talk <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            <span class="status-dot"></span> Available for freelance projects
+            &amp; full-time opportunities
+          </p>
+          <p class="hero-kicker">Frontend-focused full-stack developer</p>
+          <h1>I build modern web experiences<span class="accent">.</span></h1>
+          <p class="hero-intro">
+            I create responsive interfaces and practical web applications with
+            React, Next.js, and modern JavaScript — with hands-on experience
+            connecting frontends to APIs, authentication, and databases.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work"
+              >Explore my work <span aria-hidden="true">↓</span></a
+            >
+            <a class="button button-quiet" href="#contact"
+              >Let's work together <span aria-hidden="true">↗</span></a
+            >
+            <a
+              class="button button-resume"
+              href="resume.pdf"
+              download="Abhijeet-Pal-Resume.pdf"
+              >Download résumé <span aria-hidden="true">↓</span></a
+            >
+          </div>
+          <div class="hero-meta">
+            <span>Based in Agra, India</span><span class="meta-separator"></span
+            ><span>Open to remote opportunities</span>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-glow"></div>
+          <div class="art-card">
+            <div class="art-card-top">
+              <span class="window-dots"><i></i><i></i><i></i></span
+              ><span class="mono">BUILD / SHIP / LEARN</span>
+            </div>
+            <div class="art-code">
+              <p>
+                <span class="code-muted">01</span>
+                <span class="code-purple">const</span> developer = {
+              </p>
+              <p>
+                <span class="code-muted">02</span> &nbsp; focus:
+                <span class="code-green">'frontend'</span>,
+              </p>
+              <p>
+                <span class="code-muted">03</span> &nbsp; mindset:
+                <span class="code-green">'full-stack'</span>,
+              </p>
+              <p>
+                <span class="code-muted">04</span> &nbsp; status:
+                <span class="code-green">'building'</span>
+              </p>
+              <p><span class="code-muted">05</span> };</p>
+            </div>
+            <div class="art-card-bottom">
+              <span class="mini-pulse"></span
+              ><span>Turning ideas into interfaces</span
+              ><span class="mono">AP_001</span>
+            </div>
+          </div>
+          <span class="floating-tag tag-react">React.js</span
+          ><span class="floating-tag tag-next">Next.js</span
+          ><span class="floating-tag tag-js">JavaScript</span>
+          <span class="hero-art-note mono">SELECTED WORK · 2026</span>
+        </div>
+        <a class="scroll-cue" href="#work" aria-label="Scroll to explore"
+          ><span></span> Scroll to explore</a
+        >
+      </section>
+
+      <section class="work-section section" id="work">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">01 / Selected work</p>
+              <h2>Built to be <span class="accent">useful.</span></h2>
+            </div>
+            <p class="section-aside">
+              A selection of web applications exploring product interfaces,
+              full-stack workflows, and AI-powered experiences.
+            </p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-featured reveal">
+              <a
+                class="project-visual visual-codecircle"
+                href="https://code-circle-frontend-flame.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Open CodeCircle live demo"
+              >
+                <img
+                  class="project-screenshot"
+                  src="assets/images/codecircle-feed.png"
+                  alt="Screenshot of CodeCircle's developer discovery feed with search and developer profile cards"
+                  loading="lazy"
+                />
+                <span class="visual-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div>
+                  <p class="project-type mono">FULL-STACK · SOCIAL</p>
+                  <h3>CodeCircle</h3>
+                  <p>
+                    A developer networking platform built around profiles,
+                    connection requests, and discovering other developers.
+                  </p>
+                  <div class="tag-list">
+                    <span>React</span><span>Node.js</span><span>Express</span
+                    ><span>MongoDB</span>
+                  </div>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://code-circle-frontend-flame.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Live demo <span>↗</span></a
+                  ><a
+                    href="https://github.com/Abhijeetpal123/CodeCircle-Frontend-"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="View the CodeCircle frontend repository on GitHub"
+                    >Source code <span>↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a
+                class="project-visual visual-atlas"
+                href="https://atlas-mind-ai-trip-planner.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Open AtlasMind live demo"
+              >
+                <img
+                  class="project-screenshot"
+                  src="assets/images/atlasmind-home.png"
+                  alt="Screenshot of AtlasMind AI trip planner homepage with trip prompt and navigation"
+                  loading="lazy"
+                />
+                <span class="visual-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div>
+                  <p class="project-type mono">AI · TRAVEL</p>
+                  <h3>AtlasMind</h3>
+                  <p>
+                    An AI travel planner that generates personalized itineraries
+                    with a modern trip-planning flow.
+                  </p>
+                  <div class="tag-list">
+                    <span>Next.js</span><span>TypeScript</span
+                    ><span>Groq AI</span><span>Convex</span>
+                  </div>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://atlas-mind-ai-trip-planner.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Live demo <span>↗</span></a
+                  ><a
+                    href="https://github.com/Abhijeetpal123/AtlasMind-AI-Trip-Planner-"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="View the AtlasMind repository on GitHub"
+                    >Source code <span>↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a
+                class="project-visual visual-tweettube"
+                href="https://tweet-tube-frontend-ochre.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Open TweetTube live demo"
+              >
+                <img
+                  class="project-screenshot"
+                  src="assets/images/tweettube-home.png"
+                  alt="Screenshot of TweetTube video platform with sidebar navigation and video cards"
+                  loading="lazy"
+                />
+                <span class="visual-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div>
+                  <p class="project-type mono">MERN · VIDEO</p>
+                  <h3>TweetTube</h3>
+                  <p>
+                    A social video platform combining video playback and upload
+                    workflows with social interactions.
+                  </p>
+                  <div class="tag-list">
+                    <span>React</span><span>Node.js</span><span>JWT</span
+                    ><span>REST APIs</span>
+                  </div>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://tweet-tube-frontend-ochre.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Live demo <span>↗</span></a
+                  ><a
+                    href="https://github.com/Abhijeetpal123/Tweet-Tube"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="View the TweetTube repository on GitHub"
+                    >Source code <span>↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a
+                class="project-visual visual-notes"
+                href="https://dev-notes-ai-sigma.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Open DevNotes AI live demo"
+              >
+                <img
+                  class="project-screenshot"
+                  src="assets/images/devnotes-home.png"
+                  alt="Screenshot of DevNotes AI homepage with AI-powered learning and JavaScript concept example"
+                  loading="lazy"
+                />
+                <span class="visual-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div>
+                  <p class="project-type mono">DEVELOPER TOOL</p>
+                  <h3>DevNotesAI</h3>
+                  <p>
+                    A notes-focused web project designed to support a more
+                    organized developer workflow.
+                  </p>
+                  <div class="tag-list">
+                    <span>Web app</span><span>AI</span><span>Productivity</span>
+                  </div>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://dev-notes-ai-sigma.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Live demo <span>↗</span></a
+                  ><a
+                    href="https://github.com/Abhijeetpal123/DevNotes-AI"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="View the DevNotes AI repository on GitHub"
+                    >Source code <span>↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section container" id="about">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">02 / A little about me</p>
+            <h2>
+              Curious by nature.<br /><span class="accent"
+                >Builder by practice.</span
+              >
+            </h2>
+          </div>
+        </div>
+        <div class="about-grid">
+          <div class="about-main reveal">
+            <p class="about-lead">
+              I’m Abhijeet — a 2025 Computer Science graduate focused on
+              building clean, responsive web experiences and learning how
+              products work end to end.
+            </p>
+            <p>
+              I enjoy turning ideas into interfaces, connecting them to real
+              data, and improving the details that make an application easier to
+              use. I’m continuing to deepen my frontend and full-stack skills
+              through hands-on projects.
+            </p>
+            <div class="about-actions">
+              <a
+                class="text-link"
+                href="https://www.linkedin.com/in/abhijeet-pal-388426226/"
+                target="_blank"
+                rel="noreferrer"
+                >Connect on LinkedIn <span>↗</span></a
+              ><a
+                class="text-link"
+                href="https://x.com/Abhijeetcodes"
+                target="_blank"
+                rel="noreferrer"
+                >Follow on X <span>↗</span></a
+              >
+            </div>
+          </div>
+          <aside class="about-note reveal">
+            <span class="note-icon">✳</span>
+            <p class="mono">CURRENTLY INTERESTED IN</p>
+            <ul>
+              <li>Frontend engineering</li>
+              <li>Useful full-stack products</li>
+              <li>AI-powered web experiences</li>
+              <li>Working with thoughtful teams</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="skills-section section" id="skills">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">03 / Toolbox</p>
+              <h2>Tools I work <span class="accent">with.</span></h2>
+            </div>
+            <p class="section-aside">
+              A practical toolkit across user interfaces, application logic,
+              data, and delivery.
+            </p>
+          </div>
+          <div class="skills-grid reveal">
+            <div class="skill-group">
+              <span class="skill-number mono">01</span>
+              <div>
+                <h3>Frontend</h3>
+                <p>
+                  JavaScript (ES6+), React, Next.js, TypeScript, HTML5, CSS3,
+                  Tailwind CSS, Redux Toolkit
+                </p>
+              </div>
+            </div>
+            <div class="skill-group">
+              <span class="skill-number mono">02</span>
+              <div>
+                <h3>Backend &amp; data</h3>
+                <p>Node.js, Express.js, REST APIs, MongoDB, Mongoose, Convex</p>
+              </div>
+            </div>
+            <div class="skill-group">
+              <span class="skill-number mono">03</span>
+              <div>
+                <h3>Auth &amp; integrations</h3>
+                <p>
+                  JWT, Clerk, Firebase Auth, Groq API, OpenAI API, Pexels API
+                </p>
+              </div>
+            </div>
+            <div class="skill-group">
+              <span class="skill-number mono">04</span>
+              <div>
+                <h3>Tools &amp; motion</h3>
+                <p>
+                  Git, GitHub, Postman, Vercel, GSAP, ScrollTrigger, Framer
+                  Motion
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-section section container" id="experience">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">04 / Background</p>
+            <h2>Experience &amp; <span class="accent">education.</span></h2>
+          </div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date mono">JUN 2024 — REMOTE</div>
+            <div class="timeline-content">
+              <h3>Web Development Intern</h3>
+              <p class="timeline-org">VerveBridge</p>
+              <p>
+                Worked on responsive web pages using HTML, CSS, and JavaScript,
+                with experience in scroll-triggered animations and collaborative
+                development workflows.
+              </p>
+            </div>
+            <span class="timeline-marker"></span>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date mono">2021 — 2025</div>
+            <div class="timeline-content">
+              <h3>B.Tech — Computer Science</h3>
+              <p class="timeline-org">
+                A.P.J. Abdul Kalam Technical University
+              </p>
+              <p>Graduated in 2025 · SGPA 7.8</p>
+            </div>
+            <span class="timeline-marker"></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contact">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">05 / Get in touch</p>
+            <h2>
+              Have a good project<br />in mind<span class="accent">?</span>
+            </h2>
+            <p>
+              Looking for a developer or have a freelance idea? Tell me a little
+              about it and let's start a conversation.
+            </p>
+            <div class="contact-direct">
+              <span class="mono">EMAIL ME DIRECTLY</span
+              ><a href="mailto:abhijeetpal0307@gmail.com"
+                >abhijeetpal0307@gmail.com <span>↗</span></a
+              >
+            </div>
+          </div>
+          <form
+            class="contact-form reveal"
+            id="contact-form"
+            action="mailto:abhijeetpal0307@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="form-row">
+              <label for="name">Your name</label
+              ><input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Jane Smith"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="email">Email address</label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="jane@company.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="project-type">What are you reaching out about?</label
+              ><select id="project-type" name="project_type" required>
+                <option value="" disabled selected>Select a topic</option>
+                <option>Freelance project</option>
+                <option>Full-time opportunity</option>
+                <option>Collaboration</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message">A little about it</label
+              ><textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell me what you have in mind..."
+                required
+              ></textarea>
+            </div>
+            <button class="button button-primary form-submit" type="submit">
+              Send message <span aria-hidden="true">↗</span>
+            </button>
+            <p
+              class="form-feedback"
+              id="form-feedback"
+              role="status"
+              aria-live="polite"
+            >
+              Submitting opens your email app with a message draft for you to
+              send.
+            </p>
+            <p class="form-small">
+              Your message is not sent automatically. Review and send it from
+              your email app.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#top"
+          ><span class="brand-mark">AP</span
+          ><span>Abhijeet Pal<span class="brand-dot">.</span></span></a
+        >
+        <p class="footer-note">Designed with intention. Built with code.</p>
+        <div class="footer-links">
+          <a
+            href="https://github.com/Abhijeetpal123"
+            target="_blank"
+            rel="noreferrer"
+            >GitHub</a
+          ><a
+            href="https://www.linkedin.com/in/abhijeet-pal-388426226/"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn</a
+          ><a
+            href="https://x.com/Abhijeetcodes"
+            target="_blank"
+            rel="noreferrer"
+            >X</a
+          >
+        </div>
+        <span class="copyright mono"
+          >© <span id="year">2026</span> ABHIJEET PAL</span
+        >
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+      defer
+    ></script>
+    <script src="js/animations.js" defer></script>
+  </body>
+</html>

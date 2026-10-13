@@ -1,0 +1,11 @@
+{
+  "name": "Abhijeet Pal Portfolio",
+  "short_name": "Abhijeet Pal",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    { "src": "assets/icons/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
